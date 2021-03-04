@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    
+    display: flex;
+    margin: auto;
+    margin-top:50px;
+    width: 60%;
+
+}
+
+
+
+.email{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.712);
+    
+}
+
+h1{
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.formulario{
+    width: 100%;
+    margin-left: 200px;
+    
+   
+}
+
+.formulario__label__login{
+    color:whitesmoke;
+
+}
+
+.formulario__grupo-input{
+    width: 100%;
+    
+    
+}
+.formulario__input__login{
+    
+    padding: 5px;
+    width: 60%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 10px;
+    outline: none;
+    outline-style: none;
+    
+}
+
+.button1{
+border: none;
+background-color:rgba(0, 0, 0, 0.678);
+padding:6px;
+width: 50px;
+border-radius: 4px;
+color: whitesmoke;
+margin-top: 5px;
+
+}
+
+.regex__login{
+
+    color: red;
+    font-size: 12px;
+    display: none;
+
+}
+
+.regex__login-active{
+    display: block;
+}
+
+.please{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.please-active{
+    display: block;
+}
+
+.password__match{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.password__match-activo{
+    display: block;
+}
+
+.password__match__two{
+    color: red;
+    font-size: 12px;
+    display: none;
+
+}
+
+.password__match__two-activo{
+    
+    display: block;
+
+}
+
+.provincia{
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+
+.form-control{
+width: 40%;
+margin-top: 5px;
+margin-bottom: 5px;
+background:;
+
+}
+.mensaje__provincia{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.mensaje__provincia-activo{
+    display: block;
+}
+
+
+
+
